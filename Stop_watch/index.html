@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stop Watch</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+        <div id="stopwatchtext"><p>Stop Watch</p></div>
+            <div id="lapwatch">
+                <span id="lapminutes">00</span>:<span id="lapseconds">00</span>:<span id="lapcentiseconds">00</span>
+            </div>
+            <div id="stopwatch">
+                <span id="timeminutes">00</span>:<span id="timeseconds">00</span>:<span id="timecentiseconds">00</span>
+            </div>
+            
+            <div id="ControlContainer">
+                <input type="button" value="Start" class="button" id="startButton" />
+                <input type="button" value="Stop" class="button" id="stopButton" />
+                <input type="button" value="Resume" class="button" id="resumeButton" />
+               <input type="button" value="Lap" class="button" id="lapButton" />
+                <input type="button" value="Reset" class="button" id="resetButton" />
+            </div>
+            
+            <div id="laps"></div>
+        </div> 
+        
+        
+        <script src="stopwatch.js"></script>  
+    </body>
+
+</html>

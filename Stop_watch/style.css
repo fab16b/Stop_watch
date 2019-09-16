@@ -1,0 +1,97 @@
+body {
+   
+    background: url("images/tree.jpg") center center fixed;
+    background-size: cover;
+    color: white;
+    align-content: center;
+}
+
+#stopwatchtext, #stopwatch{
+    text-align: center;
+    font-size: 5vw;
+    
+}
+
+#lapwatch{
+    font-size: 5vw;
+    text-align: right;
+    margin-right: 2vw;
+}
+
+#ControlContainer{
+    text-align: center;
+    margin-bottom: 100px;    
+}
+#startButton{
+    margin-right: 8px;
+    padding: inherit;
+    border-radius: 100%;
+    width: 8.5vw;
+    height: 8.5vw;
+    background-color: #D7A04E;
+    font-size: 2vw;
+
+}
+
+#stopButton{
+    margin-right: 8px;
+    padding: inherit;
+    border-radius: 100%;
+     width: 9vw;
+    height: 9vw;
+    background-color: #D7A04E;
+    font-size: 2vw;
+    padding: inherit;
+}
+
+#resumeButton{
+    margin-right: 8px;
+    padding: inherit;
+    border-radius: 100%;
+    width: 9vw;
+    height: 9vw;
+    background-color: #D7A04E;
+    font-size: 2vw;
+    padding: inherit;
+}
+
+#lapButton{
+    margin-right: 8px;
+    padding: inherit;
+    border-radius: 100%;
+     width: 9vw;
+    height: 9vw;
+    font-size: 2vw;
+    background-color: #D7A04E;
+}
+
+#resetButton{
+    margin-right: 8px;
+    margin-right: 10px;
+    border-radius: 100%;
+     width: 9vw;
+    height: 9vw;
+    font-size: 2vw;
+    background-color: #D7A04E;
+    padding: inherit;
+}
+
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+ 
+.lap{
+    height: 50px;
+    border-bottom: 2px solid white;
+    margin: 30px;
+}
+.laptimetitle{
+    font-size: 2em;
+}
+
+.laptime{
+    font-size: 2em;
+    float: right;
+    
+}
